@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.config-controller-con {
+  height: 25vh;
+  background-color: #475569;
+  padding: 10px;
+}
+.layout-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 600;
+  margin-left: 38px;
+}
+.checkbox {
+  margin-right: 12px;
+  margin-bottom: 12px;
+  margin-left: 38px;
+}
+.label {
+  color: #f1f5f9;
+}

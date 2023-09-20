@@ -1,0 +1,69 @@
+/* Write your CSS here */
+.body-container {
+  height: 300px;
+  display: flex;
+  justify-content: flex-start;
+  width: 600;
+}
+.description {
+  min-width: 200px;
+}
+.item {
+  list-style-type: none;
+  margin-bottom: 6px;
+}
+.add {
+  height: 150px;
+  width: 150px;
+  border: 1px solid #64748b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.left-heading {
+  font-family: 'Roboto';
+  font-size: medium;
+  font-weight: 600;
+}
+.right-heading {
+  font-family: 'Roboto';
+  font-size: medium;
+  font-weight: 600;
+}
+.center-heading {
+  font-family: 'Roboto';
+  font-size: medium;
+  font-weight: 600;
+}
+.left-nav-menu {
+  background-color: #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding: 8px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+.content-container {
+  background-color: #f1f5f9;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  padding: 8px;
+  margin: 3px 2px 3px 2px;
+}
+.right-nav {
+  background-color: #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  padding: 8px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
